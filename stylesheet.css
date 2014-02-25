@@ -1,0 +1,329 @@
+body {
+	/*background: url("http://subtlepatterns.com/patterns/fresh_snow.png");*/
+	/*background-color: #E8E8E8 ;*/
+	/*background: url("http://www.thephotographerslife.com/wp-content/media//2012/01/Canvas.jpg");*/
+	background: url("http://th02.deviantart.net/fs10/PRE/f/2006/325/b/2/paper_texture_by_akinna_stock.jpg");
+	background-size: 100%;
+}
+
+/* BAR SECTION */
+#bar {
+	height: 175px;
+	width: 800px;
+	background-color: white;
+	border: 1px solid black;
+	box-shadow: 3px 5px 5px black, -3px 5px 5px black;
+	margin: -10px auto 0px auto;
+}
+
+/* BODY OF CHRIST DIV */
+#bar_name_container {
+	height: 175px;
+	width: 300px;
+	background-color: #A18E34;
+	float:left;
+	position: relative;
+	text-align: center;
+}
+
+#bar_name_text {
+	top:-10%;
+	left: 8%;
+	font-size:40px;
+	color: #B20000;
+	position: absolute;
+	text-shadow: 0.075em 0.075em 0.05em black;
+	z-index:1;
+}
+
+#bar_name_text_2 {
+	top: 24%;
+	left: 25%;
+	color: #000000;
+	position: absolute;
+	text-shadow: 0.075em 0.075em 0.05em black;
+	z-index:1;
+}
+
+#bar_name_text_3 {
+	bottom: -15px;
+	left: 10%;
+	color: #FFFFFF;
+	position: absolute;
+	text-align: center;
+	text-shadow: 0.075em 0.075em 0.05em black;
+	z-index:1;
+}
+
+#bar_name_p {
+	top: 98px;
+	font-weight: bold;
+	line-height: 10%;
+	position: relative;
+	margin: 0px;
+}
+
+/* DISPENSATIONAL CHART */
+#bar_pic_container {
+	height: 175px;
+	width: 498px;
+	border-left: 2px solid black;
+	float: right;
+	overflow: none;
+	position: relative;
+}
+
+
+#bar_pic_img {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background: white;
+	opacity: 0.33;
+	position: absolute;
+}
+
+/* MENU BAR */
+#menu {
+	width: 800px;
+	height: 35px;
+	margin: 0px auto 0px auto;
+	border: 1px solid black;
+	box-shadow: 3px 5px 5px black, -3px 5px 5px black;
+	overflow: hidden;
+	background: #A33127;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	font-size:100%;
+	font-weight: bold;
+	text-shadow: 3px 2px 3px #333333;
+	text-align: center;
+	text-transform: uppercase;
+	overflow:hidden;
+	white-space:no-wrap;
+	background: #A33127;
+	background: linear-gradient(top, #BF6F68 0%, #A33127 100%); 
+	display: inline-table;
+}
+
+#menu ul li { 
+	list-style:none;
+	display:inline-block;
+	float: left;
+	padding: 8px 0px 8px 4px;
+	z-index: 1;
+}
+
+#menu a {
+	background-color: #A33127;
+	border: 0px 1px 0px solid black;
+	padding: 8px 14px 8px 14px;
+	text-decoration: none;
+	}
+
+#menu a:link,
+#menu a:visited {
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	background-color: #BF3A2E;
+}
+
+#menu a:active {
+	background-color: #911F1F;
+}
+
+/* MAIN SECTION */
+#main {
+	height: 1536px;
+	width: 800px;
+	position: top;
+	border: 1px solid black;
+	background-color: #FFFFFF;
+	box-shadow: 3px 5px 5px black, -3px 5px 5px black;
+	margin: 0px auto 0px auto;
+}
+
+#main h1 {
+	text-align: center;
+}
+
+#main_shorter {
+	height: 620px;
+	width: 800px;
+	position: top;
+	border: 1px solid black;
+	background-color: #FFFFFF;
+	box-shadow: 3px 5px 5px black, -3px 5px 5px black;
+	margin: 0px auto 0px auto;
+}
+
+#grace_churches {
+	margin: 0px 75px 0px 75px;
+	padding: 0px;
+}
+
+#main_left {
+	width: 496px;
+	float: left;
+	padding: 10px 25px 10px 25px;
+}
+
+#main_left h1 {
+	text-align: center;
+}
+
+#main_left img {
+	height: 150px;
+	width: 100px;
+	display: block;
+	float: left;
+	position: relative;
+	margin: 0px 15px 0px 0px;
+}
+
+#main_right {
+	height: 1536px;
+	width: 250px;
+	border-left: 1px solid black;
+	float: right;
+	position: relative;
+	text-align: center;
+}
+
+#recent_messages{
+	top: -22px;
+	height: 35px;
+	background-color: #A33127;
+	text-shadow: 3px 2px 3px #333333;
+	position: relative;
+}
+
+#recent_messages h4 {
+	color: #FFFFFF;
+	padding: 8px 0px 0px 0px;
+	text-align: center;
+}
+
+#recent_messages_audio {
+	position: relative;
+	top: -11px;
+}
+
+#recent_messages_audio h2 {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#recent_messages_audio p {
+	text-align: left;
+	padding: 0px 20px 0px 20px;
+}
+
+#recent_messages_audio a:link, a:visited {
+	color: #0000FF;
+}
+
+#recent_messages_audio_link a:hover {
+	color: #A33127;
+}
+
+#recent_messages_audio_link a:active {
+	background-color: #911F1F;
+}
+
+#recent_messages_article {
+	position: relative;
+	text-align: center;
+}
+
+#subtopic_01 {
+	position: relative;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+}
+
+#subtopic_02 {
+	position: relative;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+}
+
+#subtopic_03 {
+	position: relative;
+	text-align: center;
+	padding: 0px 10px 0px 10px;
+}
+
+/* CONTACT US FORM */
+
+#main_shorter h1 {
+	text-align: center;
+}
+
+#main_shorter p {
+	margin: 0px 100px 10px 100px;
+}
+
+#form_div {
+    /* Just to center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+}
+
+#form_div h2 {
+	color: #A33127;
+}
+
+form {
+    /* To see the outline of the form 
+    border: 1px solid #CCC;
+    border-radius: 1em;*/
+}
+Then, we will add some space between each of the form widgets:
+
+form div + div {
+    margin-top: 1em;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* FOOTER */
+#footer {
+	height: 120px;
+	width: 800px;
+	background: #A33127;
+	border: 1px solid black;
+	box-shadow: 3px 5px 5px black, -3px 5px 5px black;
+	margin: 0px auto -10px auto;
+	position: relative;
+}
+
+#footer_bottom {
+	height: 30px;
+	width: 100%;
+	bottom: 5%;
+	position: absolute;
+}
+
+#copyright {
+	color: #FFFFFF;
+	font-size: 1em;
+	font-weight: bold;
+	text-shadow: 3px 2px 3px #333333;
+	text-align: center;
+}
+
+#copyright a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
